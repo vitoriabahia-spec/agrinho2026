@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte & Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones gratuitos -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- Cabeçalho / Menu de Navegação -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i> Agro<span>Forte</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#tecnologia">Inovação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="btn-dark-mode" id="theme-toggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Seção Hero (Banner Principal) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade do campo e a preservação do meio ambiente.</p>
+            <a href="#pilares" class="btn-primary">Descubra Como</a>
+        </div>
+    </section>
+
+    <!-- Seção de Pilares (Cards Informativos) -->
+    <section id="pilares" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Produzir com Responsabilidade</h2>
+            <p class="section-subtitle">Como unimos a força da lavoura ao cuidado com o ecossistema.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <img src="https://unsplash.com" alt="Plantação sustentável">
+                    <div class="card-body">
+                        <h3>Manejo Regenerativo</h3>
+                        <p>Práticas que recuperam a saúde do solo, aumentam a biodiversidade e retêm água de forma natural, garantindo safras fortes ano após ano.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://unsplash.com" alt="Energia limpa na fazenda">
+                    <div class="card-body">
+                        <h3>Energia Limpa</h3>
+                        <p>Uso de matrizes renováveis no campo, como energia solar e biomassa, reduzindo drasticamente a pegada de carbono da produção.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://unsplash.com" alt="Tecnologia agrícola">
+                    <div class="card-body">
+                        <h3>Precisão Consciente</h3>
+                        <p>Uso inteligente de insumos e água através de dados geoespaciais, evitando desperdícios e protegendo os recursos hídricos locais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Impacto e Inovação -->
+    <section id="tecnologia" class="bg-light section-padding">
+        <div class="container twin-layout">
+            <div class="twin-text">
+                <h2>Tecnologia a Serviço da Natureza</h2>
+                <p>O agronegócio moderno não escolhe entre o lucro e o planeta. Através de sensores de solo, inteligência artificial e monitoramento por satélite, nós entendemos a terra em tempo real.</p>
+                <p>Isso nos permite produzir mais alimentos em menos espaço, poupando florestas nativas e criando um ecossistema agrícola resiliente para as próximas gerações.</p>
+            </div>
+            <div class="twin-image">
+                <img src="https://unsplash.com" alt="Agricultor usando tablet no campo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="section-padding">
+        <div class="container contact-container">
+            <h2>Junte-se à Revolução Verde</h2>
+            <p>Quer saber mais sobre técnicas de cultivo sustentável ou parcerias? Fale conosco.</p>
+            <form id="agro-form" class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+            <div id="form-response" class="hidden"></div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 AgroForte. Alinhando produtividade e conservação.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
